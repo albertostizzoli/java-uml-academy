@@ -1,0 +1,34 @@
+UC.1 : REGISTRAZIONE DEI PARTECIPANTI
+
+Attori Principali: Amministratore.
+
+1. L’amministratore seleziona l’opzione per aggiungere un nuovo partecipante.
+2. Il sistema presenta un modulo per inserire i dati del partecipante (nome, cognome, email, corso di iscrizione).
+3. L’amministratore inserisce i dati e conferma la registrazione.
+4. Il sistema valida i dati e registra il nuovo partecipante.
+
+UC.2 VISUALIZZAZIONE PROGRESSI PARTECIPANTI
+
+Attori Principali: Insegnante, Partecipante.
+
+1. L’utente seleziona il corso di interesse.
+2. Il sistema mostra una lista di tutti i partecipanti del corso con i relativi progressi.
+3. L’utente può selezionare un partecipante per dettagli più approfonditi.
+
+
+UC.3 GESTIONE DELLE ASSENZE
+
+Attori Principali: Amministratore, Insegnante
+
+1. L’utente accede alla sezione di gestione delle assenze.
+2. L’utente seleziona una data e visualizza l’elenco dei partecipanti.
+3. L’utente segna i partecipanti assenti e conferma.
+
+Ogni Partecipante è associato esattamente a una Registrazione e può avere zero o più Assenze.
+Ogni Corso è associato a una o più Registrazioni e può avere zero o più Progressi associati.
+Ogni Registrazione è associata esattamente a un Partecipante e a un Corso.
+Ogni Progresso è associato esattamente a un Partecipante e a un Corso.
+Ogni Assenza è associata esattamente a un Partecipante e a un Corso.
+Ogni Insegnante può essere associato a uno o più Corsi.
+
+
