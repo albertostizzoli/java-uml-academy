@@ -24,11 +24,5 @@ Attori Principali: Amministratore, Insegnante
 2. L’utente seleziona una data e visualizza l’elenco dei partecipanti.
 3. L’utente segna i partecipanti assenti e conferma.
 
-Ogni Partecipante è associato esattamente a una Registrazione e può avere zero o più Assenze.
-Ogni Corso è associato a una o più Registrazioni e può avere zero o più Progressi associati.
-Ogni Registrazione è associata esattamente a un Partecipante e a un Corso.
-Ogni Progresso è associato esattamente a un Partecipante e a un Corso.
-Ogni Assenza è associata esattamente a un Partecipante e a un Corso.
-Ogni Insegnante può essere associato a uno o più Corsi.
 
 
